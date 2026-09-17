@@ -17,8 +17,6 @@ export default defineConfig({
   vite: {
     preview: {
       allowedHosts: ["campusone-sms.onrender.com"],
-      host: "0.0.0.0",
-      port: 4173,
     },
   },
 });
