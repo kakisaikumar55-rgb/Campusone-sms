@@ -14,6 +14,10 @@ export default defineConfig({
     },
   },
 
+  nitro: {
+    preset: "node-server",
+  },
+
   vite: {
     preview: {
       allowedHosts: ["campusone-sms.onrender.com"],
